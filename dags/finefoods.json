@@ -1,0 +1,50 @@
+[
+    {
+        "productId": "B0027AWD02",
+         "userId": "A2TZ10PVE5KWX8", 
+        "profileName": "KM", 
+        "helpfulness": "0/0", 
+        "score":"5.0", 
+        "time":"2016-04-28T10:26:28Z", 
+        "summary":"Nice Taffy", 
+        "text":"Lorem Ipsum Great taffy at a great price. There was a wide assortment of yummy taffy. Delivery was very quick."
+        },
+        {
+        "productId": "B005WSEFI8", 
+        "userId": "AJIX01E6FHOFX", 
+        "profileName": "llaand12", 
+        "helpfulness": "0/1", 
+        "score":"4.0", 
+        "time":"2011-12-22T16:37:30Z", 
+        "summary":"Yay Barley", 
+        "text":"Lorem Ipsum Great taffy at a great price. There was a wide assortment of yummy taffy. Delivery was very quick."
+        },
+        {"productId": "B005611CNM", 
+        "userId": "A2866H7PEU6OKO", 
+        "profileName": "Eugenia Loli", 
+        "helpfulness": "0/0", 
+        "score":"2.0", 
+        "time":"2013-03-24T18:26:28Z", 
+        "summary":"Yay Barley", 
+        "text":"Right now I'm mostly just sprouting this so my cats can eat the grass."
+        },
+        {"productId": "B002B8AX7Y", 
+        "userId": "A14E40Q45XZXEQ", 
+        "profileName": "Amy Greer", 
+        "helpfulness": "0/0", 
+        "score":"5.0", 
+        "time":"2017-08-28T10:26:28Z", 
+        "summary":"Healthy Dog Food", 
+        "text":"Lorem Ipsum Great taffy at a great price. There was a wide assortment of yummy taffy. Delivery was very quick."
+        },
+        {
+        "productId": "B0057OOLAO", 
+        "userId": "A38459WNXH0NZX", 
+        "profileName": "Robert L. Young \"Good Cook\"", 
+        "helpfulness": "0/1", 
+        "score":"4.0", 
+        "time":"2014-12-20T21:45:45Z", 
+        "summary":"Healthy Dog Food", 
+        "text":"This is a very healthy dog food. Good for their digestion. Also good for small puppies. My dog eats her required amount at every feeding."
+        }
+]
