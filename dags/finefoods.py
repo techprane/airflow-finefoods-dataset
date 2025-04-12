@@ -97,28 +97,11 @@ def load(ti, **kwargs):
         # Define an aggregation pipeline to transform data types
         pipeline = [
             {
-                "$project": {
-                    "productId": 1,
-                    "userId": 1,
-                    "profileName": 1,
-                    "helpfulness": 1,
+                "$addFields": {
                     "score": {"$toDouble": "$score"},
-                    "time": {"$toDate": "$time"},
-                    "summary": 1,
-                    "text": 1,
-                    "helpfulnessDetails": {
-                        "numerator": {
-                            "$toInt": {
-                                "$arrayElemAt": [{"$split": ["$helpfulness", "/"]}, 0]
-                            }
-                        },
-                        "denominator": {
-                            "$toInt": {
-                                "$arrayElemAt": [{"$split": ["$helpfulness", "/"]}, 1]
-                            }
-                        }
-                    }
+                    "time": {"$toDate": "$time"}
                 }
+
             }
         ]
 
